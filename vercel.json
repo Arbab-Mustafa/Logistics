@@ -1,4 +1,5 @@
 {
   "version": 2,
-  "builds": [{ "src": "next.config.ts", "use": "@vercel/next" }]
+  "builds": [{ "src": "next.config.ts", "use": "@vercel/next" }],
+  "routes": [{ "src": "/(.*)", "dest": "/$1" }]
 }
